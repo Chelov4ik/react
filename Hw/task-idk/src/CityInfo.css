@@ -1,0 +1,68 @@
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-wrapper {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .button {
+    margin-left: 30%;
+    display: block;
+    width: 30%;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .flame-towers {
+    background-color: #FF5733;  
+  }
+  
+  .maiden-tower {
+    background-color: #28A745;  
+  }
+  
+  .city-photos {
+    background-color: #007BFF; 
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  .button-label {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 5px;
+  }
+    
+  
+   
+  .button-wrapper {
+    max-width: 300px;  
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .button-container {
+      flex-direction: column;  
+    }
+  
+    .button-wrapper {
+      margin-bottom: 20px; 
+    }
+  
+    .button-wrapper:not(:last-child) {
+      margin-right: 0;  
+    }
+  }

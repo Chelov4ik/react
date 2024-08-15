@@ -1,0 +1,36 @@
+.shakespeare-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.shakespeare-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.shakespeare-section {
+  margin-bottom: 30px;
+}
+
+.shakespeare-section-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.shakespeare-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.shakespeare-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.shakespeare-list-item {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
